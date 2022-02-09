@@ -1,13 +1,35 @@
 *{
     background-color: cornsilk;
 }
-
-h1:hover{
-color: brown;
-font-size: 40px;
-}
 body{
-    margin-left: 20%;
+    margin: 0% 20%;
+    display: grid;
+    grid-template-areas:
+    'nombre nombre foto'
+    'datos datos datos'
+}
+
+.nombre{grid-area: nombre;}
+.foto{grid-area: foto;}
+.datos{grid-area: datos;}
+
+
+
+.nombre{
+    font-size: 40px;
+    color: rgb(128, 58, 0);
+}
+
+.nombre:hover{
+color: brown;
+}
+
+
+#foto{
+    width: 80%;
+    border-radius: 100px;
+    margin-left: 10%;
+    
 }
 .calidad{
     font-size: 30px;
@@ -15,6 +37,8 @@ body{
 
 .titulos{
     color: blue;
+    border: 5px solid green;
+    padding: 5px;
 }
 
 .tecnico{
