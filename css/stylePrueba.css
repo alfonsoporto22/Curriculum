@@ -1,0 +1,22 @@
+*{
+    background-color: cornsilk;
+}
+
+h1:hover{
+color: brown;
+font-size: 40px;
+}
+body{
+    margin-left: 20%;
+}
+.calidad{
+    font-size: 30px;
+}
+
+.titulos{
+    color: blue;
+}
+
+.tecnico{
+    color:crimson
+}
