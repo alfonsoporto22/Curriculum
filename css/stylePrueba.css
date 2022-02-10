@@ -1,12 +1,23 @@
 *{
-    background-color: cornsilk;
+    
 }
 body{
-    margin: 0% 20%;
+    margin: 4% 20%;
     display: grid;
     grid-template-areas:
     'nombre nombre foto'
-    'datos datos datos'
+    'datos datos datos';
+    border:5px solid blue;
+    padding:10px;
+    border-radius: 10px;
+    background-color: cornsilk;
+    background-image: url("/Curriculum/fondo.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
+body:hover{
+    background-color: blue;
 }
 
 .nombre{grid-area: nombre;}
@@ -14,14 +25,22 @@ body{
 .datos{grid-area: datos;}
 
 
-
 .nombre{
     font-size: 40px;
-    color: rgb(128, 58, 0);
+    color: cornflowerblue(128, 58, 0);
+    text-shadow: 1px 1px 1px;
+}
+.nombre>p{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-left: 10px;
 }
 
-.nombre:hover{
-color: brown;
+.nombre>p:hover{
+color: white;
+background-color: black;
 }
 
 
@@ -31,15 +50,24 @@ color: brown;
     margin-left: 10%;
     
 }
+.datos{
+    color:white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 18px;
+}
+.titulos{
+    color: blue;
+    border: 5px solid green;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 300px;
+    background-color: white;
+}
 .calidad{
     font-size: 30px;
 }
 
-.titulos{
-    color: blue;
-    border: 5px solid green;
-    padding: 5px;
-}
+
 
 .tecnico{
     color:crimson
