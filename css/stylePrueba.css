@@ -1,12 +1,10 @@
-*{
-
-}
 body{
     margin: 4% 20%;
     display: grid;
     grid-template-areas:
     'nombre nombre foto'
-    'datos datos datos';
+    'datos datos datos'
+    'footer footer footer';
     border:5px solid blue;
     padding:10px;
     border-radius: 10px;
@@ -17,17 +15,17 @@ body{
     background-position: center;
 }
 
-.nombre{grid-area: nombre;}
+header{grid-area: nombre;}
 .foto{grid-area: foto;}
 .datos{grid-area: datos;}
+footer{grid-area: footer;}
 
-
-.nombre{
-    font-size: 40px;
+header{
+    font-size: 30px;
     color: cornflowerblue(128, 58, 0);
     text-shadow: 1px 1px 1px;
 }
-.nombre>p{
+header>h1{
     background-color: aqua;
     padding: 5px;
     border-radius: 5px;
@@ -35,7 +33,7 @@ body{
     margin-left: 10px;
 }
 
-.nombre>p:hover{
+header>h1:hover{
 color: white;
 background-color: black;
 }
@@ -46,6 +44,9 @@ background-color: black;
     border-radius: 100px;
     margin-left: 10%;
     
+}
+h2{
+    font-size: 30px;
 }
 .datos{
     color:white;
@@ -68,4 +69,13 @@ background-color: black;
 
 .tecnico{
     color:crimson
+}
+
+footer{
+    text-align: center;
+    color: aquamarine;
+    background-color: blue;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
 }
