@@ -1,14 +1,15 @@
-*{
-    margin: 5px auto;
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Parisienne&display=swap');
 
-
 body{
-    background-color: blue;
-    margin: 0% 30%;
-    
+    background-color:  darkgrey;
+    margin: 5% 30%;
+    background-image: url(../img/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    background-color: rgb(67, 194, 194);
+    height: 90vh;
 }
 
 
@@ -18,7 +19,7 @@ header>h1{
     border-radius: 20px;
     margin-bottom: 20px;
     font-family: 'Akaya Telivigala', cursive;
-    padding: 10px 0;
+    padding: 10px;
     box-shadow: 2px 2px 2px black;
     color: antiquewhite;
     text-shadow: 1px 1px 1px black;
@@ -26,17 +27,19 @@ header>h1{
 
 nav{
     color: black;
-    padding: 1%;
+}
+nav>ul{
+    list-style: none;
+    margin-left: -8%;
 }
 a{
     text-decoration: none;
     font-size: 20px;
-    
 }
 
-#enlaceBlog, #enlaceContact{
+nav>ul>a>li{
     width: 45%;
-    background-color: cadetblue;
+    background-color: rgb(122, 198, 201);
     float: left;
     text-align: center;
     border: 1px solid black;
@@ -53,7 +56,17 @@ a{
     color: black;
 }
 
-
+#flexFoto{
+    display: flex;
+    justify-content: center;
+}
+section,footer{
+    margin-top: 2%;
+    opacity: 0.9;
+}
+.datosPersonales{
+    width: 60%;
+}
 .datosPersonales,.experiencia,.formacion{
     background-color: bisque;
     border-radius: 10px;
@@ -63,20 +76,19 @@ a{
 
 .datosPersonales>h2,.experiencia>h2,.formacion>h2{
     color: blue;
+    font-size: 25px;
+    margin: 0% 1%;
     text-shadow: 1px 1px 1px black;
     font-family: 'Parisienne', cursive;
 }
 .datosPersonales>ul,.experiencia>ul,.formacion>ul{
     color: brown;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin:1%;
 }
-.datosPersonales{
-    width: 50%;
-    float:left;
-}
+
 #foto{
     width:40% ;
-    float:left;
     margin-left: 5%;
     border-radius: 10px;
     margin-top: 15px;
