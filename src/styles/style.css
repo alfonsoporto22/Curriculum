@@ -1,0 +1,71 @@
+*{
+    margin: 5px auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Parisienne&display=swap');
+
+
+body{
+    background-color: blue;
+    margin: 0% 30%;
+    
+}
+
+header>h1{
+    background-color: aqua;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 10px 0;
+    box-shadow: 2px 2px 2px black;
+}
+.datosPersonales,.experiencia,.formacion{
+    background-color: bisque;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.datosPersonales>h2,.experiencia>h2,.formacion>h2{
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+    font-family: 'Parisienne', cursive;
+}
+.datosPersonales>ul,.experiencia>ul,.formacion>ul{
+    color: brown;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.datosPersonales{
+    width: 50%;
+    float:left;
+}
+#foto{
+    width:40% ;
+    float:left;
+    margin-left: 5%;
+    border-radius: 10px;
+    margin-top: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.separador{
+    float:none;
+    clear: both;
+}
+
+footer{
+    text-align: center;
+    background-color: darksalmon;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+}
+
+a#enlaceBlog{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
