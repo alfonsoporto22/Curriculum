@@ -4,7 +4,7 @@
 body{
     background-color:  darkgrey;
     margin: 5% 30%;
-    background-image: url(../img/fondo2.jpg);
+    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -50,7 +50,7 @@ nav>ul>a>li{
     border-radius: 5px;
 }
 
-#enlaceBlog:hover, #enlaceContact:hover{
+nav>ul>a>li:hover, nav>ul>a>li:hover{
     transform: scale(1.05);
     background-color: bisque;
     color: black;
