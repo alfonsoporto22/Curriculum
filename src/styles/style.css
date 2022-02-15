@@ -11,6 +11,7 @@ body{
     
 }
 
+
 header>h1{
     background-color: aqua;
     text-align: center;
@@ -19,6 +20,17 @@ header>h1{
     font-family: 'Akaya Telivigala', cursive;
     padding: 10px 0;
     box-shadow: 2px 2px 2px black;
+}
+
+nav{
+    color: black;
+    background-color: antiquewhite;
+    padding: 1%;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    
 }
 .datosPersonales,.experiencia,.formacion{
     background-color: bisque;
@@ -63,9 +75,6 @@ footer{
     box-shadow: 2px 2px 2px black;
 }
 
-a#enlaceBlog{
-    text-decoration: none;
-    font-size: 20px;
-}
+
 
 
