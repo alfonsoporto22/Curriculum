@@ -23,10 +23,15 @@ article h2{
 }
 article p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
 }
 article button{
     background-color: blue;
     color: white;
+    padding: 1%;
+    float: right;
+    cursor: pointer;
+    
 }
 
 .categorias{
