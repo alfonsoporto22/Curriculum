@@ -4,7 +4,29 @@
 
 .noticias{
     width: 70%;
+    
+    
+}
+article{
+    border: 1px solid black;
+    padding: 3%;
+    margin: 1%;
     background-color: darksalmon;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+}
+article h2{
+    margin: 1%;
+    color: blue;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 1px;
+}
+article p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article button{
+    background-color: blue;
+    color: white;
 }
 
 .categorias{
