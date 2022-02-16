@@ -37,7 +37,7 @@ a{
     font-size: 20px;
 }
 
-nav>ul>a>li{
+nav>ul.enlacesCabecera>a>li{
     width: 45%;
     background-color: rgb(122, 198, 201);
     float: left;
@@ -50,7 +50,7 @@ nav>ul>a>li{
     border-radius: 5px;
 }
 
-nav>ul>a>li:hover{
+nav>ul.enlacesCabecera>a>li:hover{
     transform: scale(1.05);
     background-color: bisque;
     color: black;
