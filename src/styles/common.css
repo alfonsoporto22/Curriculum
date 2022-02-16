@@ -3,7 +3,7 @@
 
 body{
     background-color:  darkgrey;
-    margin: 5% 30%;
+    margin: 5% 15%;
     background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,7 +30,7 @@ nav{
 }
 nav>ul{
     list-style: none;
-    margin-left: -8%;
+    margin-left: -3%;
 }
 a{
     text-decoration: none;
