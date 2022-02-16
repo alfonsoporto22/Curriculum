@@ -50,7 +50,7 @@ nav>ul>a>li{
     border-radius: 5px;
 }
 
-nav>ul>a>li:hover, nav>ul>a>li:hover{
+nav>ul>a>li:hover{
     transform: scale(1.05);
     background-color: bisque;
     color: black;

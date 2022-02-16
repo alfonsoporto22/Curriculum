@@ -1,0 +1,14 @@
+#seccionGeneral{
+    display: flex;
+}
+
+.noticias{
+    width: 70%;
+    background-color: darksalmon;
+}
+
+.categorias{
+    
+    background-color: lightcoral;
+}
+
