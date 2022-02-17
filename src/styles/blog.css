@@ -23,11 +23,13 @@ article h2{
     color: blue;
     text-shadow: 1px 1px 1px black;
     letter-spacing: 1px;
+    text-indent: 10px;
     
 }
 article p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    text-indent: 10px;
 }
 article button{
     background-color: blue;
