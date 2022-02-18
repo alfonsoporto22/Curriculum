@@ -4,12 +4,11 @@ form {
     align-items: center;
 }
 .bloqueFormulario {
-    display: flex;
 }
 label{
-    
+    float: left;
 }
 
 input{
-    margin-left: 1%;
+    float: left;
 }
